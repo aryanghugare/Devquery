@@ -27,6 +27,7 @@ export default async function createQuestionCollection(){
   console.log("Question Attributes created")
 
   // create Indexes
+// if this not work , we need to create index manually from appwrite console
 
   
   await Promise.all([
@@ -47,5 +48,7 @@ export default async function createQuestionCollection(){
       ['asc']
     )
   ])
+
+
     
 }
