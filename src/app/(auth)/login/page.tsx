@@ -2,6 +2,9 @@
 import { useAuthStore } from '@/src/store/Auth'
 import React from 'react'
 import { useState } from 'react';
+import { Label } from "@/components/ui/label";
+import { Input } from "@/components/ui/input";
+// More ui is remaining to be added
 
 function LoginPage() {
 const {login} = useAuthStore()

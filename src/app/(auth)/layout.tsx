@@ -2,7 +2,7 @@
 // This file is wrapper around all the pages inside the auth folder 
 
 import React from "react"
-import { useAuthStore } from "../store/Auth"
+import { useAuthStore } from "@/src/store/Auth"
 import { useRouter } from "next/router"
 import { useEffect } from "react"
 
