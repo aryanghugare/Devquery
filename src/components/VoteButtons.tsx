@@ -3,7 +3,7 @@
 import { databases } from "@/src/models/client/config";
 import { db, voteCollection } from "@/src/models/name";
 import { useAuthStore } from "@/src/store/Auth";
-import { cn } from "@/lib/utils";
+import { cn } from "@/src/lib/utils";
 import { IconCaretUpFilled, IconCaretDownFilled } from "@tabler/icons-react";
 import { ID, Models, Query } from "appwrite";
 import { useRouter } from "next/navigation";

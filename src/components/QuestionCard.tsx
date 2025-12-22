@@ -4,9 +4,9 @@ import React from "react";
 import { BorderBeam } from "./magicui/border-beam";
 import Link from "next/link";
 import { Models } from "appwrite";
-import slugify from "@/utils/slugify";
+import slugify from "@/src/utils/slugify";
 import { avatars } from "@/src/models/client/config";
-import convertDateToRelativeTime from "@/utils/relativeTime";
+import convertDateToRelativeTime from "@/src/utils/relativeTime";
 
 const QuestionCard = ({ ques }: { ques: Models.Document }) => {
     const [height, setHeight] = React.useState(0);

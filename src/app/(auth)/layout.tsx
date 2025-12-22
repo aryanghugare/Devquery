@@ -3,7 +3,7 @@
 
 import React from "react"
 import { useAuthStore } from "@/src/store/Auth"
-import { useRouter } from "next/router"
+import { useRouter } from "next/navigation"
 import { useEffect } from "react"
 
 const Layout = ({children} : {children : React.ReactNode}) =>{

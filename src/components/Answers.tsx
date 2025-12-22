@@ -8,7 +8,7 @@ import { avatars, databases } from "@//src/models/client/config";
 import { answerCollection, db } from "@/src/models/name";
 import RTE, { MarkdownPreview } from "./RTE";
 import Comments from "./Comments";
-import slugify from "@/utils/slugify";
+import slugify from "@/src/utils/slugify";
 import Link from "next/link";
 import { IconTrash } from "@tabler/icons-react";
 
