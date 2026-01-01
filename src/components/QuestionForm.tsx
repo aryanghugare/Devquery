@@ -35,11 +35,7 @@ const LabelInputContainer = ({
     );
 };
 
-/**
- * ******************************************************************************
- * ![INFO]: for buttons, refer to https://ui.aceternity.com/components/tailwindcss-buttons
- * ******************************************************************************
- */
+
 const QuestionForm = ({ question }: { question?: Models.Document }) => {
     const { user } = useAuthStore();
     const [tag, setTag] = React.useState("");
