@@ -68,7 +68,7 @@ setIsLoading(()=> false)
                 <Link href="/register" className="text-orange-500 hover:underline">
                     register
                 </Link>{" "}
-                with riverflow
+                with devquery
             </p>
 
             {error && (

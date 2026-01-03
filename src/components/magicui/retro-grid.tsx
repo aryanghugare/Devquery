@@ -1,4 +1,4 @@
-import { cn } from "@/utils/cn";
+import { cn } from "@/src/lib/utils";
 
 export default function RetroGrid({ className }: { className?: string }) {
     return (
